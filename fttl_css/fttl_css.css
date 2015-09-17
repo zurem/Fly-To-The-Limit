@@ -1,0 +1,151 @@
+/* ----- Fonts that will be used all throughout the Fly to the Limit website ----- */
+
+@font-face {
+    font-family: 'gotham_htfbold';
+    src: url('fttl_fonts/gothamhtf-bold-webfont.eot');
+    src: url('fttl_fonts/gothamhtf-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fttl_fonts/gothamhtf-bold-webfont.woff2') format('woff2'),
+         url('fttl_fonts/gothamhtf-bold-webfont.woff') format('woff'),
+         url('fttl_fonts/gothamhtf-bold-webfont.ttf') format('truetype'),
+         url('fttl_fonts/gothamhtf-bold-webfont.svg#gotham_htfbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gotham_htfbook';
+    src: url('fttl_fonts/gothamhtf-book-webfont.eot');
+    src: url('fttl_fonts/gothamhtf-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fttl_fonts/gothamhtf-book-webfont.woff2') format('woff2'),
+         url('fttl_fonts/gothamhtf-book-webfont.woff') format('woff'),
+         url('fttl_fonts/gothamhtf-book-webfont.ttf') format('truetype'),
+         url('fttl_fonts/gothamhtf-book-webfont.svg#gotham_htfbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* ----- Start of CSS for the Fly to the Limit website ----- */
+
+
+/* ----- The following is the common styling for all the webpages ----- */
+
+body {
+	font-size: 13px;
+	font-family: 'gotham_htfbook', sans-serif;
+	margin: 0;
+	background-color: #FFFDEE;
+}
+
+ul {
+	list-style-type: none;
+	float: right;
+	margin-top: 60px;
+/*	margin-right: 30px;*/
+}
+
+ul li {
+	display: inline;
+}
+
+ul li a {
+	text-decoration: none;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 15px;
+	color: #FFFDEE;
+	font-family: 'gotham_htfbook', sans-serif;
+}
+
+/*--- Hover effect Option 1 ---*/
+/*ul li a:hover {
+	background-color: #FF5E2C; 
+	width: 50px;
+}*/
+
+/*--- Hover effect Option 2 ---*/
+ul li a:hover {
+	border-bottom: 1px solid;
+	padding-bottom: 10px;
+}
+
+ul li a:active {
+	border-bottom: 1px solid;
+	padding-bottom: 10px;
+}
+
+.current {
+	border-bottom: 1px solid;
+	padding-bottom: 10px;
+}
+
+
+#background_image {
+	background-repeat: no-repeat;
+	
+	/*--- Positioning ---*/
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
+	/*--- Size of the background ---*/
+	max-width: 1920px;
+	min-height: auto;
+}
+
+#logo {
+	width: 8%;
+	height: auto;
+	float: left;
+	margin-left: 40px;
+	margin-top:30px;
+}
+
+/* ----- The following is the CSS for the home page ----- */
+
+#home_words {
+	width: 30%;
+	height: 50%;
+	clear: both;
+	position: ;
+}
+
+#home_booknow {
+	font-family: 'gotham_htfbook', sans-serif;
+	font-size: 20px;
+	width: 230px;
+	height: 65px;
+	border-color: #FFFDEE;
+	border-width: 3px;
+	background-color: transparent;
+	border-style: solid;
+}
+
+#home_booknow a{
+	text-decoration: none;
+	color: #FFFDEE;
+}
+
+/*#home_booknow:hover{
+	background-color: #FFFDEE;
+	color: 1#FF5E2C;
+}*/
+
+
+/**/
+
+
+#companypage_background {
+	background-repeat: no-repeat;
+	
+	/*--- Positioning ---*/
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
+	/*--- Size of the background ---*/
+	max-width: 1920px;
+	min-height: auto;
+}
